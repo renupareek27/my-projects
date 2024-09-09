@@ -1,0 +1,567 @@
+*{
+	margin: 0;
+	font-family: arial;
+	border: border-box;
+}
+.navbar{
+	height: 60px;
+	background-image: linear-gradient(#0077b6,#00b4d8);
+	background-color: transparent;
+	color: white;
+	display: flex;
+	display: flex;
+	align-items: center;
+	
+	
+}
+.navlogo{
+	font-weight: bolder;
+	height: 100%;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 700px;
+	margin-bottom: 0px;
+}
+.logo{
+	;
+	height: 100px;
+	width: 200%;
+	background-size: cover;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.home{
+ padding-right: 20px;
+}
+.tags a{
+
+	text-decoration: none;
+	color: white;
+	margin-left: 0px;
+    margin-right: 0px;
+}
+.page1{
+	background-image: url("bgimg.webp");
+	background-size: contain;
+	background-repeat: no-repeat;
+    padding-top: 100px;
+	// background-image: linear-gradient(#179bae,#6dc5d1,#6dc5d1,#179bae);
+	height: 800px;
+	width: 100%;
+	display: flex;
+    margin-top: -70px;
+	color: white;
+	justify-content: center;
+
+}
+.sdiv{
+	// background-image: linear-gradient(#6dc5d1,#6dc5d1,#6dc5d1);
+	border : border-box;
+	// border: 40px solid #6dc5d1;
+	bor
+	height: 80px;
+	margin-top: 10px;
+}
+.searchselect{
+ background-image: linear-gradient(#0096c7,#0096c7);
+	border: none;
+	color: white;
+}
+.ppage1{
+	font-weight: bolder;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+
+}
+.p2page1{
+	font-weight: bolder;
+	font-weight: 700;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: -40px;
+	margin-bottom: 20px;
+
+}
+.p3page1{
+	margin-left: 10px;
+}
+.p4page1{
+	margin-left: 30px;
+}
+.seacrhbar{
+
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.searchinput{
+	margin-top: 30px;
+	padding-top: 20px;
+	width: 75%;
+	border: 3px solid white;
+}
+.search{
+
+	font-weight: bolder;
+	text-align: center;
+	margin-left: -7px;
+	padding-top: 19px;
+	padding-bottom: 2px;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	border-left: white;
+	border-top: 0px;
+	// border-bottom-right-radius: 5px;
+	// border-top-right-radius: 5px;
+	border: 2px solid white;
+	background-image: linear-gradient(to left,#3388bd,#3ac9cb);
+}
+.topcourses{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 30px;
+	margin-bottom: 40px;
+	font-weight: lighter;
+}
+
+.curs1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
+
+}
+.curs2{
+	border: 1px solid white;
+	padding: 5px 15px 5px 15px;
+}
+.page2{
+	height: 400px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-top: -50px;
+	
+	
+
+}
+.one{
+
+	background-image: url("telescope.jpg");
+	margin-top: 200px;
+	width: 300px;
+	height: 350px;
+	background-repeat: no-repeat;
+	width: 45%;
+	border: 2px solid transparent;
+	margin-right: -200px;
+}
+.two{
+	width: 45%;
+	border: 2px solid transparent;
+	font-size: 30px;
+	font-weight: 10px;
+	font: bolder;
+}
+.twotwo{
+	font-size: initial;
+
+}
+button{
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: linear-gradient(to left,#3388bd,#3ac9cb);
+	border: 1px solid transparent;
+	border-radius: 5px;
+	color: white;
+	font-weight: bolder;
+}
+.page3{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #e6f2ff;
+	height: 600px;
+	flex-direction: row;
+	
+}
+.threeone{
+	margin-left: 100px;
+
+ width: 35%;
+ font-size: 30px;
+}
+.threeonethree{
+	font-size: initial;
+	margin-bottom: 40px;
+}
+
+.explore{
+	margin-top: 50px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid white;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+					}
+
+.abc{
+	flex-wrap: wrap;
+
+	display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+	height: 450px;
+	width: 400px;
+	background-color: white;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.abcd{
+	display: flex;
+	padding-left: 10px;
+	font-weight: lighter;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #e6f2ff;
+	width: 35%;
+	height: 50px;
+	margin-left: 7%;
+	align-items: center;
+
+}
+.hey{
+	margin-right: 10px;
+	
+}
+.page4{
+	flex-wrap: wrap;
+	height: 600px;
+	display: flex;
+	padding-left: -30px;
+	justify-content: center;
+
+}
+
+.page41{
+	padding-bottom: 0px;
+	margin-top: 60px;
+	height: 35%;
+	width: 26%;
+	border: 2px solid white;
+	flex-grow: grow;
+	background-color: #e6f2ff;
+}
+.scd{
+	margin-top: -80px;
+	margin-left: 10px;
+}
+.sdc{
+	margin-left: 10px;
+}
+.heading{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 70px;
+margin-bottom: 20px;
+font-size: 30px;
+}
+.page4p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page5{
+	flex-wrap: wrap;
+	height: 600px;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	background-color: #e6f2ff;
+}
+.page51{
+	
+margin-left: 15px;
+	margin-top: 0px;
+	height: 40%;
+	width: 20%;
+	border: 2px solid white;
+	flex-grow: grow;
+}
+.page5p{
+	margin-top: 20px;
+	margin-left: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.heading5{
+	margin-left: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+margin-bottom: 0px;
+}
+.page51{
+	background-color: white;
+}
+.teacher1{
+	background-image: url("teacher1.jpg");
+	height: 80%;
+	width: 80%;
+	align-items: center;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+        margin-bottom: 10px;
+        margin-top: -80px;
+}
+.teacher2{
+	background-image: url("teacher2.jpg");
+	height: 60%;
+	width: 80%;
+	align-items: center;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+        margin-bottom: 10px;
+        margin-top: -80px;
+}
+.teacher3{
+	background-image: url("teacher3.jpg");
+	height: 60%;
+	width: 80%;
+	align-items: center;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+        margin-bottom: 10px;
+        margin-top: -80px;
+}
+.teacher4{
+	background-image: url("teacher4.jpg");
+	height: 60%;
+	width: 80%;
+	align-items: center;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-top: -80px;
+}
+.h5{
+	margin-top: -43px;
+}
+.qt{
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+.page6{
+	height: 500px;
+}
+.la6{
+	color: #e6f2ff;
+	font-weight: bolder;
+	font-size: 90px;
+	margin-top: 40px;
+	margin-bottom: -60px;
+	margin-left: 620px;
+	
+
+}
+.h3{
+	margin-top: 80px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+.i{
+	margin-top: 20px;
+	margin-bottom: 10px;
+		display: flex;
+	justify-content: center;
+}
+.p5{
+	margin-top: 20px;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;	
+}
+.img66{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img6{
+	margin-left: 40px;
+	background-image: url("teacher5.jpg");
+	height: 100vh;
+	width: 25vh;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.img7{
+	background-image: url("teacher2.jpg");
+	height: 100vh;
+	width: 25vh;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.img8{
+	background-image: url("teacher5.jpg");
+	height: 100vh;
+	width: 25vh;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.img9{
+	background-image: url("teacher4.jpg");
+	height: 100vh;
+	width: 25vh;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.page7{
+	background-color: #201E43;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;	
+	
+}
+li{
+  list-style: none;
+  margin-bottom: 20px;
+}
+.hhh{
+	margin-left: 40px;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	color: white;
+}
+.footer{
+	height: 100px;
+	background-color: #002244;
+}
+.pf{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	caption-side: top;
+	background-color: white;
+}
+.fpi{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+.fpi i{
+	margin-left: 20px;
+}
+.ok{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	font-size: 30px;
+}
+.okk{
+	margin-left: 17px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.d5{
+	margin-left: 20px;
+}
+.p75{
+	margin-right: 80px;
+}
+.li6{
+	padding-left: 15px;
+}
+.ii{
+	padding: 5px 5px 5px 5px;
+	margin-top: 80px;
+	margin-left: 8px;
+	background-color: gray;
+	border: 2px solid gray;
+}
+.here{
+	margin-top: -20px;
+ width: 300px;
+}
+.rgt{
+	
+	align-items: center;
+
+	background-image: linear-gradient(#179bae,#6dc5d1,#6dc5d1,#179bae);
+	margin-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 3px;
+	padding-right: 15px;
+	color: white;
+}
+.p71{
+	color: white;
+}
+.p72{
+	color: white;
+}
+.p73{
+	color: white;
+}
+.p74{
+	color: white;
+}
+.p75{
+	color: white;
+}
+.add{
+  background-color: white;
+}
+.copyright{
+	margin-top: -40px;
+	margin-left: -830px;
+}
+.rock{
+	background-repeat: no-repeat;
+	background-image: url("rock.webp");
+	height: 160px;
+	width: 80px;
+	margin-top: -340px;
+	margin-left: 640px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
